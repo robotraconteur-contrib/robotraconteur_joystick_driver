@@ -40,7 +40,7 @@ jobs:
       SKIP: no-commit-to-branch
     steps:
     - uses: actions/checkout@v5
-    - uses: actions/setup-python@v3
+    - uses: actions/setup-python@v6
     - name: apt
       run: |
         sudo apt update
