@@ -30,7 +30,7 @@ jobs:
       working-directory: build
       run: cpack -G ZIP
     - name: upload
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: joystick_robotraconteur_driver_win
         path: build/*.zip
